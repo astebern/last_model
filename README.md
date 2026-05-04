@@ -58,7 +58,9 @@ submission 20: 2.8864 (best)
 
 submission 21: 2.8965
     v20 + smart rounding 0.08
-    
+ 
+ submission 22: 2.9262
+    optuna ON
 
 ## INSIGHT OPTIMAL: 
 - Year : > 1950 
@@ -68,7 +70,7 @@ submission 21: 2.8965
 - Smart Rounding: 0.1
 - Bayesian : 10
 
-## CUSTOMIZE
+## CUSTOMIZE PARAMETER
 ### 1. Rentang Tahun Data (Time Trimming)
 Sepak bola tahun 1950 sangat berbeda dengan sepak bola modern. Mengambil data terlalu lama bisa menjadi noise, sementara mengambil terlalu sedikit bisa kekurangan sample size.
 - *Lokasi di kode:* Baris 702 (train = train[train["date"] >= '1950-01-01'])
